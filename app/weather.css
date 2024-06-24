@@ -41,6 +41,12 @@ body {
     border-radius: 5px;
     border: none;
     margin-bottom: 10px;
+    background-color: #fff; /* Ensures the background is white */
+    color: #000; /* Ensures the text color is black */
+  }
+  
+  input[type="text"]::placeholder {
+    color: #888; /* Placeholder text color */
   }
   
   button {
